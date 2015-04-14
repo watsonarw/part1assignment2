@@ -7,5 +7,6 @@ public class Introductory {
         Triangle.horizontalLine(8);
         Triangle.verticalLine(3);
         Triangle.rightTriangle(3);
+        Diamond.isoscelesTriangle(3);
     }
 }

@@ -25,10 +25,8 @@ public class Triangle {
     public static void rightTriangle(int n) {
         StringBuilder sb = new StringBuilder();
         for( int i = 1 ; i <= n ; i++) {
-            for( int j = 1 ; j <= i ; j++ ) {
-                sb.append("*");
-            }
-            sb.append("\n");
+            sb.append(new String(new char[i]).replace("\0", "*"))
+              .append("\n");
         }
         System.out.println(sb.toString());
     }
