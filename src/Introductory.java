@@ -8,5 +8,7 @@ public class Introductory {
         Triangle.verticalLine(3);
         Triangle.rightTriangle(3);
         Diamond.isoscelesTriangle(3);
+        Diamond.diamond(3);
+        Diamond.diamondWithName(3);
     }
-}
+} 
